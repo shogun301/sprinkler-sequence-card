@@ -1,4 +1,4 @@
-const VERSION = "0.1.1";
+const VERSION = "0.1.2";
 const CARD_TAG = "sprinkler-sequence-card";
 const EDITOR_TAG = "sprinkler-sequence-card-editor";
 const SERVICE_RE = /^[a-z0-9_]+\.[a-z0-9_]+$/;
@@ -516,7 +516,7 @@ export class SprinklerSequenceCard extends HTMLElement {
       const call = buildStartCall(this._config, plan);
       this._operation = "start";
       this._sync();
-      this._setStatus(`Submitting one backend-owned ${this._config.mode === "sequence" ? "sequence" : "zone"} request…`);
+      this._setStatus(`Submitting one ${this._config.mode === "sequence" ? "sequence" : "zone"} request…`);
       await invokeService(this._hass, call);
       this._setStatus("Start request submitted once. Waiting for controller state.");
     } catch (error) {
@@ -600,7 +600,7 @@ window.customCards = window.customCards || [];
 if (!window.customCards.some((card) => card.type === CARD_TAG)) window.customCards.push({
   type: CARD_TAG,
   name: "Sprinkler Sequence Card",
-  description: "Provider-neutral sprinkler runs with backend-owned sequencing and fail-closed controls.",
+  description: "Start and monitor single-zone or multi-zone sprinkler runs through Home Assistant.",
   preview: true,
   documentationURL: "https://github.com/shogun301/sprinkler-sequence-card",
 });

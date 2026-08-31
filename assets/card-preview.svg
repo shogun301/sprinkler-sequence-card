@@ -19,5 +19,5 @@
     <rect x="577" y="303" width="198" height="48" rx="10" fill="#151b1e" stroke="#59666d"/><text x="676" y="334" fill="#fff">Trees</text>
   </g>
   <rect x="145" y="370" width="630" height="50" rx="11" fill="#2e7d32"/><text x="460" y="402" fill="#fff" font-family="system-ui,sans-serif" font-size="18" font-weight="700" text-anchor="middle">Start</text>
-  <text x="460" y="449" fill="#91a0a7" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle">One click · one backend-owned service call</text>
+  <text x="460" y="449" fill="#91a0a7" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle">One click · one sequence request</text>
 </svg>

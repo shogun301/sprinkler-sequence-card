@@ -6,7 +6,10 @@
 
 [![Validate](https://github.com/shogun301/sprinkler-sequence-card/actions/workflows/validate.yml/badge.svg)](https://github.com/shogun301/sprinkler-sequence-card/actions/workflows/validate.yml)
 
-A provider-neutral Home Assistant dashboard card for bounded single-zone and multi-zone sprinkler runs. One click sends exactly one service call. The integration or automation behind that service owns sequencing, timers, transitions, and stopping.
+A Home Assistant dashboard card for starting and monitoring single-zone or
+multi-zone sprinkler runs. One click sends one request; the configured Home
+Assistant integration or automation handles sequencing, timing, transitions,
+and stopping.
 
 ![Sprinkler Sequence Card preview](assets/card-preview.svg)
 
@@ -127,7 +130,9 @@ zones:
     duration_seconds: 300
 ```
 
-The card deliberately does not implement client-side delays or call the single-zone service repeatedly. If your backend lacks one atomic sequence service, use `single_zone` mode or add backend-owned sequencing first.
+The card deliberately does not implement browser-side delays or call the
+single-zone service repeatedly. If your Home Assistant setup lacks one sequence
+service, use `single_zone` mode or add a sequence automation first.
 
 ## Runtime mapping
 

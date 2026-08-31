@@ -1,7 +1,7 @@
 {
   "name": "sprinkler-sequence-card",
-  "version": "0.1.1",
-  "description": "Provider-neutral Home Assistant sprinkler sequence card with backend-owned timing.",
+  "version": "0.1.2",
+  "description": "Home Assistant card for starting and monitoring single-zone or multi-zone sprinkler runs.",
   "type": "module",
   "license": "Apache-2.0",
   "scripts": {

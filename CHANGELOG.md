@@ -4,6 +4,13 @@ All notable changes to this project will be documented here. The format follows 
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-08-31
+
+### Changed
+
+- Rewrote the repository, card-picker, runtime, and preview descriptions in
+  direct Home Assistant terminology.
+
 ## [0.1.1] - 2026-08-31
 
 ### Added
@@ -23,6 +30,7 @@ All notable changes to this project will be documented here. The format follows 
 - Synthetic lifecycle, duration, runtime, and exact-service-call tests.
 - HACS metadata, validation workflow, privacy scan, documentation, and preview asset.
 
-[Unreleased]: https://github.com/shogun301/sprinkler-sequence-card/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/shogun301/sprinkler-sequence-card/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/shogun301/sprinkler-sequence-card/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/shogun301/sprinkler-sequence-card/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/shogun301/sprinkler-sequence-card/releases/tag/v0.1.0
