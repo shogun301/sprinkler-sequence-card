@@ -1,0 +1,23 @@
+{
+  "name": "sprinkler-sequence-card",
+  "version": "0.1.0",
+  "description": "Provider-neutral Home Assistant sprinkler sequence card with backend-owned timing.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check src/sprinkler-sequence-card.js && node --check dist/sprinkler-sequence-card.js",
+    "test": "node --test test/*.test.mjs",
+    "privacy": "node scripts/privacy-scan.mjs",
+    "validate": "npm run build && npm run check && npm test && npm run privacy"
+  },
+  "files": [
+    "dist/sprinkler-sequence-card.js",
+    "README.md",
+    "LICENSE",
+    "hacs.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}
