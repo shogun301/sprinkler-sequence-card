@@ -1,6 +1,6 @@
 {
   "name": "sprinkler-sequence-card",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Provider-neutral Home Assistant sprinkler sequence card with backend-owned timing.",
   "type": "module",
   "license": "Apache-2.0",

@@ -1,4 +1,4 @@
-const VERSION = "0.1.0";
+const VERSION = "0.1.1";
 const CARD_TAG = "sprinkler-sequence-card";
 const EDITOR_TAG = "sprinkler-sequence-card-editor";
 const SERVICE_RE = /^[a-z0-9_]+\.[a-z0-9_]+$/;

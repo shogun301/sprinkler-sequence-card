@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.svg" width="128" height="128" alt="Sprinkler Sequence Card logo">
+</p>
+
 # Sprinkler Sequence Card
 
 [![Validate](https://github.com/shogun301/sprinkler-sequence-card/actions/workflows/validate.yml/badge.svg)](https://github.com/shogun301/sprinkler-sequence-card/actions/workflows/validate.yml)
@@ -5,6 +9,9 @@
 A provider-neutral Home Assistant dashboard card for bounded single-zone and multi-zone sprinkler runs. One click sends exactly one service call. The integration or automation behind that service owns sequencing, timers, transitions, and stopping.
 
 ![Sprinkler Sequence Card preview](assets/card-preview.svg)
+
+The project logo is original artwork. Its editable SVG source and 256/512-pixel
+PNG exports are included under `assets/`.
 
 ## Safety model
 
